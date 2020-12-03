@@ -1,0 +1,105 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "1183454c-dc67-48f4-b335-fe87e2043318": {
+        "id": "1183454c-dc67-48f4-b335-fe87e2043318",
+        "parent": null,
+        "name": "1202_qareleasesanity.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "1202_qareleasesanity.js",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "1202qareleasesanity"
+        },
+        "triggers": [
+          {
+            "resourceName": "alexaSKe09c19e2eeaf48448586dd8e8ff5ac7e",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1606987787236,
+        "testCases": {
+          "14b5944a-ba33-405e-a2c7-1b1af9deca4f": {
+            "id": "14b5944a-ba33-405e-a2c7-1b1af9deca4f",
+            "name": "Test event",
+            "functionId": "1183454c-dc67-48f4-b335-fe87e2043318",
+            "event": "{\r\n\t\"version\": \"1.0\",\r\n\t\"session\": {\r\n\t\t\"new\": false,\r\n\t\t\"sessionId\": \"amzn1.echo-api.session.9c7ae4a2-baae-41a2-8525-6e9b17b25e1e\",\r\n\t\t\"application\": {\r\n\t\t\t\"applicationId\": \"amzn1.ask.skill.e09c19e2-eeaf-4844-8586-dd8e8ff5ac7e\"\r\n\t\t},\r\n\t\t\"user\": {\r\n\t\t\t\"userId\": \"amzn1.ask.account.AFP6D7FXVLFZYXE6ALXAW7LN6NE6LB6MRYWP6GQYF4OLAJSCMO2XUYJ4CLOQLDYVF2YNIVVQKCPBVCJVWVMDXFBOUNXRTMSJB46YNW5OGHUPLCF4VAZOBIZ3R7YOM7UOPD7WRJPNRXEODW7FQFVQV2XXFWAQ3FXKV2NXT5L7GNEK6LOKM2CUNBW7SJ2U42FTNPD6SEQ2B5VGPGA\"\r\n\t\t}\r\n\t},\r\n\t\"context\": {\r\n\t\t\"Viewports\": [\r\n\t\t\t{\r\n\t\t\t\t\"type\": \"APL\",\r\n\t\t\t\t\"id\": \"main\",\r\n\t\t\t\t\"shape\": \"RECTANGLE\",\r\n\t\t\t\t\"dpi\": 160,\r\n\t\t\t\t\"presentationType\": \"STANDARD\",\r\n\t\t\t\t\"canRotate\": false,\r\n\t\t\t\t\"configuration\": {\r\n\t\t\t\t\t\"current\": {\r\n\t\t\t\t\t\t\"video\": {\r\n\t\t\t\t\t\t\t\"codecs\": [\r\n\t\t\t\t\t\t\t\t\"H_264_42\",\r\n\t\t\t\t\t\t\t\t\"H_264_41\"\r\n\t\t\t\t\t\t\t]\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\"size\": {\r\n\t\t\t\t\t\t\t\"type\": \"DISCRETE\",\r\n\t\t\t\t\t\t\t\"pixelWidth\": 1024,\r\n\t\t\t\t\t\t\t\"pixelHeight\": 600\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t}\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t],\r\n\t\t\"Viewport\": {\r\n\t\t\t\"experiences\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"arcMinuteWidth\": 246,\r\n\t\t\t\t\t\"arcMinuteHeight\": 144,\r\n\t\t\t\t\t\"canRotate\": false,\r\n\t\t\t\t\t\"canResize\": false\r\n\t\t\t\t}\r\n\t\t\t],\r\n\t\t\t\"shape\": \"RECTANGLE\",\r\n\t\t\t\"pixelWidth\": 1024,\r\n\t\t\t\"pixelHeight\": 600,\r\n\t\t\t\"dpi\": 160,\r\n\t\t\t\"currentPixelWidth\": 1024,\r\n\t\t\t\"currentPixelHeight\": 600,\r\n\t\t\t\"touch\": [\r\n\t\t\t\t\"SINGLE\"\r\n\t\t\t],\r\n\t\t\t\"video\": {\r\n\t\t\t\t\"codecs\": [\r\n\t\t\t\t\t\"H_264_42\",\r\n\t\t\t\t\t\"H_264_41\"\r\n\t\t\t\t]\r\n\t\t\t}\r\n\t\t},\r\n\t\t\"Extensions\": {\r\n\t\t\t\"available\": {\r\n\t\t\t\t\"aplext:backstack:10\": {}\r\n\t\t\t}\r\n\t\t},\r\n\t\t\"System\": {\r\n\t\t\t\"application\": {\r\n\t\t\t\t\"applicationId\": \"amzn1.ask.skill.e09c19e2-eeaf-4844-8586-dd8e8ff5ac7e\"\r\n\t\t\t},\r\n\t\t\t\"user\": {\r\n\t\t\t\t\"userId\": \"amzn1.ask.account.AFP6D7FXVLFZYXE6ALXAW7LN6NE6LB6MRYWP6GQYF4OLAJSCMO2XUYJ4CLOQLDYVF2YNIVVQKCPBVCJVWVMDXFBOUNXRTMSJB46YNW5OGHUPLCF4VAZOBIZ3R7YOM7UOPD7WRJPNRXEODW7FQFVQV2XXFWAQ3FXKV2NXT5L7GNEK6LOKM2CUNBW7SJ2U42FTNPD6SEQ2B5VGPGA\"\r\n\t\t\t},\r\n\t\t\t\"device\": {\r\n\t\t\t\t\"deviceId\": \"amzn1.ask.device.AG7O2WTEFXDRTHHJXVV4XFTRYEK4XJZTXDPILCPAUSLIGQMCBRXXWTAU3PZFIWSDDJJBVD2FNNAM7QVRUZHBU7XKYGA3IGGGUAQLRJNOWCZIK2PCFVBWJ423WAO6EYEB2LUYQ3ZIG6GVK3636IG3JKXLWMGGRN65B4QP4246QXWW7S535IOPG\",\r\n\t\t\t\t\"supportedInterfaces\": {}\r\n\t\t\t},\r\n\t\t\t\"apiEndpoint\": \"https://api.amazonalexa.com\",\r\n\t\t\t\"apiAccessToken\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLmUwOWMxOWUyLWVlYWYtNDg0NC04NTg2LWRkOGU4ZmY1YWM3ZSIsImV4cCI6MTYwNjkwOTQwMSwiaWF0IjoxNjA2OTA5MTAxLCJuYmYiOjE2MDY5MDkxMDEsInByaXZhdGVDbGFpbXMiOnsiY29udGV4dCI6IkFBQUFBQUFBQUFBampxaWxFSk83S1p5SEJGNHhLSzFIS2dFQUFBQUFBQUJuWnpNYlJvSzZMV1ZWUEdDbzVCMWozY2dRZlRvUS9TR21DKzlJNDdsaFNCVWlkcUpBYzlEejNPUEFCQ3dTTGRNZDRqaXFFMVdSR0IwUWJCUFJRZWpPUVh2WUpyQi9qbWFQTlpRUzhHTTc0bDdRbGhKWitaYVZTbUFVU2FldUtqOEFTL2xqNm1JeGhQTEludWZIdWY5UE9nQ3BlVm9USTNObzlIZFlPbmcyalg4UEYxQ1FmOGVsQWxXWVREai9xdWdPYlNVUjVmdHA2ejkyelJKb1UreWhMcEtDQ2UzTTVHY21lejYwRHZzM1VLb0MvR2RUN05hOHRVSlRkSWl3dEJKS1ZDeGNSQmV1US9reUJWNkVEd3EyT1VMZ1UyeDNEN0laazZmajJmclFHKzA1NThZVWF3Z3l4OVBvaVlTT29LUG9lUTdobTZTb2luVlhsZG5aYUhETExsQ1pGOFoxZkJBWDUwRForaE5uaE40b0NlU2hnNWRyelZ1aG51S0ExekxSRi92MFJkQU9NSGxKIiwiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUc3TzJXVEVGWERSVEhISlhWVjRYRlRSWUVLNFhKWlRYRFBJTENQQVVTTElHUU1DQlJYWFdUQVUzUFpGSVdTRERKSkJWRDJGTk5BTTdRVlJVWkhCVTdYS1lHQTNJR0dHVUFRTFJKTk9XQ1pJSzJQQ0ZWQldKNDIzV0FPNkVZRUIyTFVZUTNaSUc2R1ZLMzYzNklHM0pLWExXTUdHUk42NUI0UVA0MjQ2UVhXVzdTNTM1SU9QRyIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFGUDZEN0ZYVkxGWllYRTZBTFhBVzdMTjZORTZMQjZNUllXUDZHUVlGNE9MQUpTQ01PMlhVWUo0Q0xPUUxEWVZGMllOSVZWUUtDUEJWQ0pWV1ZNRFhGQk9VTlhSVE1TSkI0NllOVzVPR0hVUExDRjRWQVpPQklaM1I3WU9NN1VPUEQ3V1JKUE5SWEVPRFc3RlFGVlFWMlhYRldBUTNGWEtWMk5YVDVMN0dORUs2TE9LTTJDVU5CVzdTSjJVNDJGVE5QRDZTRVEyQjVWR1BHQSJ9fQ.Z3N4ZhlHWuFKJZsUCicNpf1SlRl0dVS_ljvj16pQSNkesnIwbqTZFh917Yp6oBGhnGhfoNfLRSLrpX5xekmVP9bmvdNIohG-JHi01hC1BxvlpXW8-2uXffDororw6QCzaGtjVproD58dH_1h2nxYYa8FLi2Iot7Pg8GqvBDqTrQtROfOv-DK8GEMcUFxSAvZqU0w5-TnFK0hHKHaeN_x6ed7GMVrvhCs6xEAHoif29Q49_kQC01ZRp1wggtXe2ZU8w0yWxbLp31mi3FUD9HlDb98lzdLLKnOgF4ScKrUgg6fKwbRbuNvF4DQ4jqSEyO6IcPsL79HH_Cav8mOEhQxcA\"\r\n\t\t}\r\n\t},\r\n\t\"request\": {\r\n\t\t\"type\": \"IntentRequest\",\r\n\t\t\"requestId\": \"amzn1.echo-api.request.0bd70bba-8ee6-4400-ab00-cf58e60b8140\",\r\n\t\t\"locale\": \"en-US\",\r\n\t\t\"timestamp\": \"2020-12-02T11:38:21Z\",\r\n\t\t\"intent\": {\r\n\t\t\t\"name\": \"GetTheDayMood\",\r\n\t\t\t\"confirmationStatus\": \"NONE\"\r\n\t\t}\r\n\t}\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      }
+    },
+    "openFiles": [
+      "1183454c-dc67-48f4-b335-fe87e2043318"
+    ],
+    "currentFileId": "1183454c-dc67-48f4-b335-fe87e2043318",
+    "resources": {
+      "alexaSKe09c19e2eeaf48448586dd8e8ff5ac7e": {
+        "name": "alexaSKe09c19e2eeaf48448586dd8e8ff5ac7e",
+        "type": "ALEXA",
+        "config": {
+          "type": 1,
+          "verifiedID": true,
+          "skillID": "amzn1.ask.skill.e09c19e2-eeaf-4844-8586-dd8e8ff5ac7e",
+          "applicationID": ""
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "ask-sdk": {
+          "name": "ask-sdk",
+          "language": "nodejs",
+          "version": "2.7.0",
+          "dev": false,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.6",
+    "projectName": "1202_qareleasesanity",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1606987804296
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "1202_qareleasesanity",
+      "url": "https://github.com/HirudineeADRT/1202_qareleasesanity"
+    }
+  }
+}
